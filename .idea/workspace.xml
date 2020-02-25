@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="13689323-a031-4346-b857-5974862f61c7" name="Default Changelist" comment="fix zero value insert">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/fluentpdo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FluentPDO/BaseQuery.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FluentPDO/CommonQuery.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FluentPDO/DeleteQuery.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FluentPDO/FluentPDO.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FluentPDO/FluentUtils.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FluentPDO/SelectQuery.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/01-basic.phpt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/02-query-with-group-having.phpt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/03-from-id.phpt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/04-where-array.phpt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/05-where-column-value.phpt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/06-where-column-null.phpt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/07-where-column-array.phpt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/08-where-column-name.phpt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/09-join-full.phpt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/10-join-short.phpt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/11-join-short-backref.phpt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/12-join-short-multi.phpt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/13-join-short-multi-backref.phpt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/14-join-short-two-same-tables.phpt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/15-join-short-two-tables.phpt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/16-fluent-utils.phpt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/17-join-in-where.phpt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/18-join-in-select.phpt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/19-join-in-order-by.phpt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/20-join-in-group-by.phpt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/21-dont-create-duplicite-joins.phpt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/22-clause-with-ref-before-join.phpt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/23-aliases-for-clauses-groupby-orderby.phpt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/24-fetch.phpt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/25-fetch-pairs-fetch-all.phpt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/26-debug.phpt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/27-fetch-all-with-params.phpt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/28-from-other-db.phpt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/29-join-table-from-other-db.phpt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/30-join-table-with-using.phpt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/31-from-with-alias.phpt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/32-insert.phpt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/33-insert-update.phpt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/34-insert-ignore.phpt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/35-insert-with-literal.phpt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/36-disable-smart-join.phpt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/37-fetch-column.phpt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/38-pdo-fetch-obj.phpt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/39-update-basic.phpt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/40-update-literal.phpt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/41-update-from-array.phpt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/42-update-left-join.phpt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/43-update-smart-join.phpt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/44-update-order-limit.phpt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/45-delete-basic.phpt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/46-delete-ignore.phpt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/47-delete-order-limit.phpt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/48-delete-expanded.phpt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/50-update-shortcut.phpt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/51-delete-shortcut.phpt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/52-add-from-after-delete.phpt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/53-callable-fluentstructure.phpt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/53-from-id-asobject.phpt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/54-from-id-asobject-user.phpt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/55-update-zero.phpt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/56-where-reset.phpt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/57-select-array-param.phpt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/58-groupby-array-param.phpt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/59-countable.phpt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/60-where-not-array.phpt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/61-where-column-name-escaped.phpt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/62-insert-delayed.phpt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/63-update-where.phpt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/connect.inc.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/fluentdb.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/run-tests.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/phpunit.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Exception.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Literal.php" beforeDir="false" afterPath="$PROJECT_DIR$/FluentPDO/FluentLiteral.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Queries/Base.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Queries/Common.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Queries/Delete.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Queries/Insert.php" beforeDir="false" afterPath="$PROJECT_DIR$/FluentPDO/InsertQuery.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Queries/Json.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Queries/Select.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Queries/Update.php" beforeDir="false" afterPath="$PROJECT_DIR$/FluentPDO/UpdateQuery.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Query.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Regex.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Structure.php" beforeDir="false" afterPath="$PROJECT_DIR$/FluentPDO/FluentStructure.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Utilities.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Queries/CommonTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Queries/DeleteTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Queries/InsertTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Queries/SelectTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Queries/UpdateTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/RegexTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/StructureTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/UtilitiesTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/_resources/fluentdb.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/_resources/init.php" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="v1" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1YIeyvLDOPsquRo70UncjrlUks1" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Git.Branch.Popup.ShowAllRemotes" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="13689323-a031-4346-b857-5974862f61c7" name="Default Changelist" comment="" />
+      <created>1582634793824</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1582634793824</updated>
+      <workItem from="1582634795469" duration="748000" />
+    </task>
+    <task id="LOCAL-00001" summary="fix zero value insert">
+      <created>1582635055594</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1582635055594</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="fix zero value insert" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix zero value insert" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="186" y="91" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582635103680">
+      <screen x="0" y="0" width="1462" height="864" />
+    </state>
+    <state x="186" y="91" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1462.864/1920.0.1280.689@0.0.1462.864" timestamp="1582635103680" />
+    <state x="356" y="91" width="727" height="717" key="CommitChangelistDialog2" timestamp="1582635542787">
+      <screen x="0" y="0" width="1462" height="864" />
+    </state>
+    <state x="356" y="91" width="727" height="717" key="CommitChangelistDialog2/0.0.1462.864/1920.0.1280.689@0.0.1462.864" timestamp="1582635542787" />
+    <state width="331" height="194" key="Git.Branch.Popup" timestamp="1582635443959">
+      <screen x="0" y="0" width="1462" height="864" />
+    </state>
+    <state width="331" height="194" key="Git.Branch.Popup/0.0.1462.864/1920.0.1280.689@0.0.1462.864" timestamp="1582635443959" />
+    <state x="444" y="151" width="754" height="562" key="MultipleFileMergeDialog" timestamp="1582635317158">
+      <screen x="0" y="0" width="1462" height="864" />
+    </state>
+    <state x="444" y="151" width="754" height="562" key="MultipleFileMergeDialog/0.0.1462.864/1920.0.1280.689@0.0.1462.864" timestamp="1582635317158" />
+    <state x="324" y="158" key="Vcs.Push.Dialog.v2" timestamp="1582635509832">
+      <screen x="0" y="0" width="1462" height="864" />
+    </state>
+    <state x="324" y="158" key="Vcs.Push.Dialog.v2/0.0.1462.864/1920.0.1280.689@0.0.1462.864" timestamp="1582635509832" />
+  </component>
+</project>
